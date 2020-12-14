@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+}
+
+.header .header-text {
+  display: inline-block;
+  font: size 35px;
+  color: skyblue;
+  font-weight: 600;
+  padding: 30px 15px;
+}
+
+.header .header-sj {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+  font-size: 25px;
+  color: skyblue;
+}
+
+.header .header-sj .icon {
+  vertical-align: middle;
+}
+
+.header .header-tab {
+  display: flex;
+  flex: 1;
+  font-size: 25px;
+  text-align: center;
+  line-height: 80px;
+  background: skyblue;
+  color: #d6d6d6;
+}
+
+.header /deep/ .router-link-active {
+  color: #fff;
+}
+
+.header a {
+  color: white;
+}
